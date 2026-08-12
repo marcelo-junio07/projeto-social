@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(imagens/fundo-madeira.jpg);
+}
+
+
+#telefone{
+  position: relative;
+   margin: auto;
+   width: 300px;
+} 
+
+#telefone iframe{
+    position: absolute;
+    width: 89%;
+    height:76%;
+    top: 12%;
+    left: 5%;
+}
+
+
+#imagem{
+    width: 100%;
+    display: block;
+}
+
+
+img{
+    width: 50%;
+    height: 50%;
+}
