@@ -30,3 +30,13 @@ img{
     width: 50%;
     height: 50%;
 }
+
+.ico{
+    width: 80px;
+    height: 85px;
+    position: absolute;
+    top: 25px;
+    left: 690px;
+    border-radius: 50px 50px ;
+
+}
