@@ -2,8 +2,10 @@
 
 body{
     background-image: url(imagens/fundo-madeira.jpg);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
-
 
 #telefone{
   position: relative;
@@ -19,6 +21,12 @@ body{
     left: 5%;
 }
 
+#conteudo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+}
 
 #imagem{
     width: 100%;
@@ -31,12 +39,28 @@ img{
     height: 50%;
 }
 
-.ico{
-    width: 80px;
-    height: 85px;
-    position: absolute;
-    top: 25px;
-    left: 690px;
+.you{
+     width: 60px;
+    height: auto;
     border-radius: 50px 50px ;
+    margin-top: 20px;
+}
 
+.you{
+    transition: 0.5s;
+}
+.you:hover{
+    transform: scale(1.1);
+    border: 3px solid white ;
+border-radius: 50%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: auto;
 }
